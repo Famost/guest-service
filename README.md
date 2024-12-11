@@ -40,11 +40,11 @@
 <p>http://[URL]/api</p>
 <ul>
 	method:POST
-	<li>first_name|required|string|max:255</li>
-	<li>last_name|required|string|max:255</li>
-	<li>email|required|email|unique</li>
-	<li>phone|required|string|unique</li>
-	<li>country|nullable|string|max:255</li>
+	<li>first_name | required | string | max:255</li>
+	<li>last_name |required | string| max:255</li>
+	<li>email | required | email | unique</li>
+	<li>phone | required | string | unique</li>
+	<li>country | nullable | string | max:255</li>
 </ul>
 
 <h3>Обновление конкретного гостя</h3>
@@ -52,11 +52,11 @@
 <p>http://[URL]/api/{id}</p>
 <ul>
 	method:PATCH
-	<li>first_name|string|max:255</li>
-	<li>last_name|string|max:255</li>
-	<li>email|email|unique</li>
-	<li>phone|string|unique</li>
-	<li>country|string|max:255</li>
+	<li>first_name | string | max:255</li>
+	<li>last_name | string | max:255</li>
+	<li>email | email | unique</li>
+	<li>phone | string | unique</li>
+	<li>country | string | max:255</li>
 </ul>
 
 <h3>Удаление конкретного гостя</h3>
